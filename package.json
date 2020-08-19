@@ -1,0 +1,16 @@
+{
+  "name": "4dam",
+  "version": "1.0.0",
+  "description": "Single Page App for 4D assets management company",
+  "main": "./dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JS"
+  ],
+  "author": "Jean-Luc - jla.webprojet@gmail.com",
+  "license": "ISC"
+}
