@@ -12,6 +12,12 @@
         margin: .5em auto;
     }
 
+    .\4dam-content {
+        padding: .5em;
+        text-align: justify;
+        line-height: .5em;
+    }
+
     h1 {
         font-size: .8em;
         text-align: center;

@@ -34,7 +34,7 @@
     <body>
         <!-- Main Bootstrap container : 100% width @see container-fluid-->
         <div class="container-fluid">
-            <header>
+            <header class="row">
                 <!-- Logo -->
                 <div class="col-12">
                     <div class="logo-wrapper">
@@ -44,6 +44,21 @@
                 <!-- Main document title : @see h1 -->
                 <h1 class="col-12">Société de Courtage - 4D Assets Management</h1>
             </header>
+
+            <!-- Carousel placeholder : not displayed on extra-small devices -->
+            <div class="carousel d-none d-sm-none d-md-block">
+                Here goes carousel only on large screen
+            </div>
+
+            <!-- Abstract : only visible on small devices -->
+            <article id="\4dam-abstract" class="row \4dam-content d-block d-sm-block d-md-none">
+                <p class="\4dam-abstract-wrapper col-12">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Curabitur semper odio lectus, eget rhoncus erat facilisis at. Vestibulum at elementum orci. Aenean finibus felis sed facilisis convallis.<br>
+                    Sed tempus nec erat in sollicitudin. Etiam purus eros, suscipit vitae est eget, elementum accumsan quam. Nam ultrices lobortis est, pellentesque mattis leo.<br>
+                    Aenean eget nibh augue. Nullam at sodales nunc, tincidunt interdum urna.
+                </p>
+            </article>
+
         </div>
     </body>
 </html>
