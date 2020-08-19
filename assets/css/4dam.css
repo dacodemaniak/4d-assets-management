@@ -1,0 +1,22 @@
+/**
+* Custom styles
+**/
+
+
+
+@media screen and (max-width: 30em) {
+    .logo-wrapper {
+        display: block;
+        width: 6.625em;
+        height: 7.43em;
+        margin: .5em auto;
+    }
+
+    h1 {
+        font-size: .8em;
+    }
+}
+
+h1 {
+    text-align: center;
+}
