@@ -1,0 +1,74 @@
+/**
+* Custom styles
+**/
+@media screen and (max-width: 30em) {
+    .logo-wrapper {
+        display: block;
+        width: 6.625em;
+        height: 7.43em;
+        margin: .5em auto;
+    }
+
+    .dam-content {
+        padding: .5em;
+        text-align: justify;
+        line-height: .5em;
+    }
+
+
+
+    h1 {
+        font-size: .8em;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 48em) {
+    article.col-md-6.dam-middle {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/**
+* Classes selector
+**/
+
+/**
+* Tagging selector
+**/
+header h1 {
+    color: rgba(128, 128, 128, 1);
+}
+
+header h1 span.kolossal {
+    color: rgba(0, 0, 0, 1);
+    text-transform: uppercase;
+}
+
+form p.dam-form-title {
+    text-transform: capitalize;
+    letter-spacing: .3em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/**
+* Overload bootstrap btn class
+**/
+form button.btn.btn-outline-success {
+    color: rgba(159, 208, 102, 1);
+    border-color: rgba(159, 208, 102, 1);
+}
+
+/**
+* ID selectors
+**/
+#dam-stakeholders {
+    text-align: center;
+}
+
+#dam-stakeholders article {
+    text-align: inherit;
+}
+
