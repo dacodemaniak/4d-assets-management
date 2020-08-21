@@ -7,9 +7,7 @@
         <title>Courtage en Banque et Assurances - Toulouse - 4D Assets Management</title>
 
         <!-- Link CSS assets -->
-        <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link href="./assets/css/4dam.css" rel="stylesheet">
-
+        <link href="./assets/css/main.css" rel="stylesheet">
 
         <!-- Icons and configs -->
         <link rel="apple-touch-icon" sizes="57x57" href="./assets/icons/apple-icon-57x57.png">
@@ -70,9 +68,13 @@
                     </header>
 
                     <figure class="avatar">
+                        
                         <img src="./assets/images/collaboratrice.png" alt="Kelly Garrett - Conseillère Courtage - 4D Assets Management">
-                        <figcaption class=" d-none d-sm-none d-md-block">                       
+                        
+                        <figcaption class="d-none d-sm-none d-md-block">                       
                             <!-- Phone and email for this person : only available on large screen -->
+                            Tél. : <a href="#">05 63 62 51 48</a>
+                            Mail. : <a href="#">kelly.g@4dam.com</a>
                         </figcaption>
                     </figure>
 
@@ -129,7 +131,7 @@
             </section>
 
             <!-- Contact form -->
-            <form class="row">
+            <form class="row" id="contact-form">
                 <p class="col-12 dam-form-title">
                     Contactez-nous
                 </p>
@@ -142,7 +144,7 @@
                 </div>
 
                 <div class="form-group col-12 col-md-6">
-                    <input class="form-control" type="text" placeholder="Votre nom (*)...">
+                    <input id="nom" class="form-control" type="text" placeholder="Votre nom (*)...">
                 </div>
 
                 <div class="form-group col-12 col-md-6">
@@ -150,11 +152,11 @@
                 </div>
 
                 <div class="form-group col-12 col-md-6">
-                    <input class="form-control" type="text" placeholder="Votre téléphone (*)...">
+                    <input id="phone" class="form-control" type="text" placeholder="Votre téléphone (*)...">
                 </div>
 
                 <div class="form-group col-12 col-md-6">
-                    <input class="form-control" type="text" placeholder="Votre email (*)...">
+                    <input id="email" class="form-control" type="text" placeholder="Votre email (*)...">
                 </div>
 
                 <div class="form-group col-12">
@@ -163,12 +165,15 @@
                 </div>
 
                 <div class="form-group">
-                    <button class="btn btn-outline-success btn-lg" disabled>
+                    <button id="send" class="btn btn-outline-success btn-lg" disabled>
                         Envoyer
                     </button>
                 </div>
             </form>
 
         </div>
+
+        <!-- JS linking -->
+        <script src="./assets/js/contact-form.js"></script>
     </body>
 </html>

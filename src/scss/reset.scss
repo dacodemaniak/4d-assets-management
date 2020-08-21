@@ -1,0 +1,9 @@
+/**
+* Resets all user agent style
+**/
+a {
+    text-decoration: none;
+    &:visited {
+        color: inherit;
+    }
+}

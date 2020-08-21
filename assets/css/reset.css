@@ -1,0 +1,11 @@
+/**
+* Resets all user agent style
+**/
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
+}
+
+/*# sourceMappingURL=reset.css.map */

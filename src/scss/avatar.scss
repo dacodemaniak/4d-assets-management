@@ -1,0 +1,29 @@
+/**
+* Manage stakeholder design
+**/
+figure {
+    &.avatar {
+        position: relative;
+        height: 240px;
+        overflow: hidden;
+
+        figcaption {
+            position: absolute;
+            top: 100%;
+            width: inherit;
+            height: inherit;
+            //border-top: solid 2px $main-text-color;
+            background-color: rgba(128, 128, 128, .5);
+            transform: rotate(180deg);
+            transition: top .8s 0s ease-in, transform .5s .7s ease-out;
+        }
+
+        // Handle hover
+        &:hover {
+            figcaption {
+                top: 0;
+                transform: rotate(0deg);
+            }
+        }
+    }
+}

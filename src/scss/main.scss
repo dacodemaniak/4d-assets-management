@@ -1,3 +1,22 @@
-:root {
-    --main-color: #999;
+@import "./my-vars.scss";
+@import "./../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./reset.scss";
+@import "./avatar.scss";
+header {
+    @media screen and (max-width: 30em) {
+        h1 {
+         font-size: .7em;   
+        }
+    }
+    h1 {
+        color: $main-text-color;
+
+        // Specify span with kolossal class
+        span {
+            &.kolossal {
+                text-transform: uppercase;
+                color: $lighten-main-text-color;
+            }
+        }
+    }
 }

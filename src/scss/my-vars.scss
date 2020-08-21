@@ -1,0 +1,5 @@
+/**
+* Global SCSS variables
+**/
+$main-text-color: rgb(3, 42, 3); // Main text color for the website
+$lighten-main-text-color: lighten($main-text-color, 30%);
